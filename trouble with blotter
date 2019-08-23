@@ -1,0 +1,21 @@
+I want to install quantstrat but i have a problem like in the screenshot:
+
+Installing package into ‘C:/Users/Adam Matuszczyk/Documents/R/win-library/3.6’
+(as ‘lib’ is unspecified)
+* installing *source* package 'blotter' ...
+** using staged installation
+** libs
+C:/RBuildTools/3.5/mingw_64/bin/gcc  -I"C:/PROGRA~1/R/R-3.6.1/include" -DNDEBUG          -O2 -Wall  -std=gnu99 -mtune=generic -c calcPosAvgCost.c -o calcPosAvgCost.o
+C:/RBuildTools/3.5/mingw_64/bin/gcc  -I"C:/PROGRA~1/R/R-3.6.1/include" -DNDEBUG          -O2 -Wall  -std=gnu99 -mtune=generic -c init.c -o init.o
+C:/RBuildTools/3.5/mingw_64/bin/gcc -shared -s -static-libgcc -o blotter.dll tmp.def calcPosAvgCost.o init.o -LC:/PROGRA~1/R/R-3.6.1/bin/x64 -lR
+installing to C:/Users/Adam Matuszczyk/Documents/R/win-library/3.6/00LOCK-blotter/00new/blotter/libs/x64
+** R
+** data
+** demo
+** byte-compile and prepare package for lazy loading
+Blad krytyczny: nie mozna otworzyc pliku 'C:\Users\Adam': No such file or directory
+
+ERROR: lazy loading failed for package 'blotter'
+* removing 'C:/Users/Adam Matuszczyk/Documents/R/win-library/3.6/blotter'
+Error: Failed to install 'blotter' from GitHub:
+  (converted from warning) installation of package ‘C:/Users/Adam Matuszczyk/AppData/Local/Temp/RtmpoJDPVT/file130471efea8/blotter_0.14.6.tar.gz’ had non-zero exit status
